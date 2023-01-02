@@ -1,5 +1,86 @@
 .heroSection{
-    background-color: lightgrey;
+    display: flex;
+    background-color: #2B2B2B;
     padding: 80px 115px;
-    
+    color: #FFFFFF;
+    column-gap: 30px;
+}
+.HeroHeadline h1{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height:73.7px;
+    align-items: center;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 67px;
+    line-height: 110%;
+    text-transform: capitalize;
+}
+.HeroHeadline p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.HeroHeadline a{
+    width: 224px;
+    margin-left: 0px;
+}
+
+.AdditionalInfo{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 30px;
+}
+.AdditionalInfo h4{
+    width: 150px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.AdditionalInfo p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;    
+    text-transform: capitalize;
+}
+
+
+.ArtistCard{
+    height: 510px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.ArtistCard h5{
+    margin: 22px 20px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.Artist{
+    display: flex;
+    height: 24px;
+    margin: 10px 20px 0px;
+}
+.Artist p{
+    margin: 0px 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
 }

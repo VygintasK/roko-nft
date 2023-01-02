@@ -2,6 +2,7 @@ import React from 'react'
 import { ReactComponent as RocketLaunch } from "./rocketLaunch.svg";
 import imagePlaceholder from "./ImagePlaceholder.png"
 import avatarPlaceholder from "./AvatarPlaceholder.png"
+import Button from '../../../Components/Button/Button'
 import './heroSection.css'
 
 const heroSection = () => {
@@ -9,9 +10,9 @@ const heroSection = () => {
     <div className='heroSection'>
         <div className='HeroHeadline'>
             <div className='HeroText'>
-                <h1>Discover digital art & Collect NFTs</h1>
-                <p>NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than 20k NFT artists.</p>
-                <a className='signUp' href='.#'><RocketLaunch className="RocketLaunch"/><span>Get Started</span></a>
+                <h1>Discover <br/> digital art & Collect NFTs</h1>
+                <p>NFT marketplace UI created with Anima for <br/> Figma. Collect, buy and sell art from more <br/>than 20k NFT artists.</p>
+                <Button href='/#'><RocketLaunch className='button-svg'/>Get Started</Button>
             </div>
             <div className='AdditionalInfo'>
                 <div>
@@ -29,10 +30,10 @@ const heroSection = () => {
             </div>
         </div>
         <div className='ArtistCard'>
-            <img src={imagePlaceholder}/>
+            <img alt="NFT" src={imagePlaceholder}/>
             <h5>Space Walking</h5>
             <div className='Artist'>
-                <img src={avatarPlaceholder}/>
+                <img alt="avatar" src={avatarPlaceholder}/>
                 <p>Animakid</p>
             </div>
         </div>   

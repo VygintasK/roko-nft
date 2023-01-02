@@ -1,7 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 import logo from '../../Img/logo.png'
 import { ReactComponent as UserSvg } from "./user.svg"
+import Button from '../Button/Button'
 import './navigation.css'
 
 const Navigation = () => {
@@ -14,7 +16,8 @@ const Navigation = () => {
           <li><Link to='/Rankings'>Rankings</Link></li>
           <li><Link to='/#'>Connect a wallet</Link></li>
         </ul>
-        <a className='signUp' href='.#'><UserSvg className="user-svg"/> <span>Sign Up</span></a>
+        <Button href='/#'><UserSvg className='button-svg'/>Sign Up</Button>
+
       </div>
     </nav>
   )
