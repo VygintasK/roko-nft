@@ -1,22 +1,22 @@
 import React from 'react'
-import logo from './logo.png';
-import { ReactComponent as UserSvg } from "./user.svg";
+import { Link } from 'react-router-dom'
+import logo from '../../Img/logo.png'
+import { ReactComponent as UserSvg } from "./user.svg"
 import './navigation.css'
 
 const Navigation = () => {
   return (
-    <div className='navigation'>
-      <img className='navLogo' src={logo} alt="Horse"></img>
+    <nav className='navigation'>
+      <Link to='/'><img className='navLogo' src={logo} alt="Horse"></img></Link>
       <div className='nav-button-wrap'>
         <ul className='navUl'>
-          <li><a href='.#'>Marketplace</a></li>
-          <li><a href='.#'>Rankings</a></li>
-          <li><a href='.#'>Connect a wallet</a></li>
+          <li><Link to='/Marketplace'>Marketplace</Link></li>
+          <li><Link to='/Rankings'>Rankings</Link></li>
+          <li><Link to='/#'>Connect a wallet</Link></li>
         </ul>
         <a className='signUp' href='.#'><UserSvg className="user-svg"/> <span>Sign Up</span></a>
       </div>
-
-    </div>
+    </nav>
   )
 }
 
