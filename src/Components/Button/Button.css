@@ -8,6 +8,9 @@
     padding: 20px 30px;
     white-space: nowrap;
 }
+.button-link:hover{
+    background-color: #8222ff;
+}
 
 .button-svg {
     padding-right: 13px;
