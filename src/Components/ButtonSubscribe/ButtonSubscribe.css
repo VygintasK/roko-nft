@@ -22,4 +22,5 @@
 }
 .subscribe-input-wrap .email-submit:hover{
     background-color: #8222ff;
+    cursor: pointer;
 }

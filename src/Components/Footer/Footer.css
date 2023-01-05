@@ -28,6 +28,7 @@ footer{
 .social-networks-wrap svg:hover{
     stroke:#858584;
     fill:#cfcfcf;
+    cursor: pointer;
 }
 .explore ul{
     list-style-type: none;
@@ -35,4 +36,10 @@ footer{
 }
 .explore li{
     margin:20px 0px;
+}
+.explore a{
+    color: #cfcfcf ;
+}
+.explore a:hover{
+    color: #FFFFFF ;
 }
