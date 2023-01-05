@@ -1,0 +1,25 @@
+.subscribe-input-wrap{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+.subscribe-input-wrap .email-text{
+    border: none;
+    border-radius: 20px;
+    padding: 19px 20px;
+    width: 100%;
+}
+.subscribe-input-wrap .email-text:focus{
+    outline: none;
+}
+.subscribe-input-wrap .email-submit{
+    background-color:#A259FF;
+    border: none;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 19px 50px;
+}
+.subscribe-input-wrap .email-submit:hover{
+    background-color: #8222ff;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import Photo from './Photo.png'
 import './SubscribeWidget.css'
+import ButtonSubscribe from '../../../Components/ButtonSubscribe/ButtonSubscribe'
 
 const SubscribeWidget = () => {
   return (
@@ -10,10 +11,7 @@ const SubscribeWidget = () => {
             <div>
               <h3>Join our weekly digest</h3>
               <p>Get exclusive promotions & updates straight to your inbox.</p>
-              <div className='subscribe-input-wrap'>
-                <input className='email-text' type='email' placeholder='Enter your email here'/>
-                <input className='email-submit' type='submit' value='Subscribe'/>
-              </div>
+              <ButtonSubscribe></ButtonSubscribe>
             </div>
         </div>
     </div>

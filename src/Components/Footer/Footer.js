@@ -1,4 +1,6 @@
 import React from 'react'
+
+import ButtonSubscribe from '../ButtonSubscribe/ButtonSubscribe'
 import logo from '../../Img/logo.png'
 import './Footer.css'
 import { ReactComponent as DiscordLogo } from "./DiscordLogo.svg"
@@ -32,7 +34,8 @@ const Footer = () => {
         <div className='join'>
           <h5>Join our weekly digest</h5>
           <p>Get exclusive promotions & updates straight to your inbox.</p>
-          <input></input>
+          <ButtonSubscribe/>
+          
         </div>
       </div>
       <p>Ⓒ NFT Market. Use this template freely.</p>
