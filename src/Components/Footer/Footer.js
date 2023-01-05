@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import ButtonSubscribe from '../ButtonSubscribe/ButtonSubscribe'
 import logo from '../../Img/logo.png'
@@ -26,9 +27,9 @@ const Footer = () => {
         <div className='explore'>
           <h5>Explore</h5>
           <ul>
-            <li>Marketplace</li>
-            <li>Rankings</li>
-            <li>Connect a wallet</li>
+            <li><Link to='/Marketplace'>Marketplace</Link></li>
+            <li><Link to='/Rankings'>Rankings</Link></li>
+            <li><Link to='/Wallet'>Connect a wallet</Link></li>
           </ul>
         </div>
         <div className='join'>
