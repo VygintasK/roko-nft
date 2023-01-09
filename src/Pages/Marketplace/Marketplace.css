@@ -1,8 +1,11 @@
 .marketplace{
+    background-color: #2B2B2B;
+    padding-bottom: 4px;
+}
+.marketplace-wrap{
     padding: 80px 115px 40px;
     background-color: #2B2B2B;
     color: #ffffff;
-
 }
 .marketplace-headline{
     padding-bottom: 30px ;
@@ -44,3 +47,50 @@
 .SearchNFT svg{
     padding: 0px 10px;
 }
+.marketplace-selection{
+    display:flex;
+    justify-content:space-around;
+}
+.nfts, .collections{
+    display:flex;
+    width: 50%;
+    justify-content: center;
+    margin-top: 10px;
+    padding-top: 14.5px;
+    padding-bottom: 14.5px;
+
+}
+.nfts h5, .collections h5{
+    padding-right: 16px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+.nfts p, .collections p{
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    background-color: #858584;
+}
+/* SELECTION CLASS */
+.inactive p{
+    background-color: #3B3B3B;
+}
+.inactive h5{
+    color: #858584;
+}
+
+.nfts{
+    border-bottom: solid 1px;
+}
+.NTF-cards-selection{
+    background-color: #3B3B3B;
+    padding: 60px 115px 80px;
+    gap: 30px;
+}
+
