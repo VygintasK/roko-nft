@@ -27,8 +27,12 @@ const Marketplace = () => {
         </div>
       </div>
       <div className='NTF-cards-selection'>
+      <span>---------FETCH FROM API OBJ HERE --------- </span>
       <div className='NFT-card-wrap'>
-        <NFTcard></NFTcard>
+        <NFTcard/>
+        <NFTcard/>
+        <NFTcard/>
+        <NFTcard/>
       </div>
     </div>
   </div>
