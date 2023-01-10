@@ -15,13 +15,14 @@ console.log(imageAddress)
 
 let randomNumber = Math.floor((Math.random() * nftDataArr.length) + 1)
 
-let randomNFT
+let randomAuthorOBJ
 nftDataArr.forEach(element => {
     if(Number(element.id)===randomNumber){
-        randomNFT=element
+        randomAuthorOBJ=element
     }
 });
-let {nftName,author}=randomNFT
+let {NFT,nftName,author,avatar}=randomAuthorOBJ
+console.log(randomAuthorOBJ.NFT)
 
 
 const heroSection = () => {
@@ -50,10 +51,10 @@ const heroSection = () => {
             </div>
         </div>
         <div className='ArtistCard'>
-            <img alt="NFT" src={imagePlaceholder}/>
+            <img className='random-NFT' alt="random NFT" src={NFT}/>
             <h5>{nftName}</h5>
             <div className='Artist'>
-                <img alt="avatar" src={avatarPlaceholder}/>
+                <img  className='avatar' alt="avatar" src={avatar}/>
                 <p>{author}</p>
             </div>
         </div>   
