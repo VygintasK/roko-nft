@@ -1,7 +1,8 @@
 import React from 'react'
 import nft from '../../Img/NFTs/Image Placeholder.png'
-import Shroomie from '../../Img/Avatars/Shroomie.png'
 import'./NFTcard.css'
+import nftDataArr from '../../Object/Object'
+
 
 const NFTcard = () => {
   return (
@@ -10,7 +11,7 @@ const NFTcard = () => {
         <div className='nft-info-wrap'>
             <h5>Magic Mushroom 0325</h5>
             <div className='card-artist'>
-                <img src={Shroomie}></img>
+                <img src={nftDataArr[0].avatar}></img>
                 <p>Shroomie</p>
             </div>
             <div className='price-wrap'>

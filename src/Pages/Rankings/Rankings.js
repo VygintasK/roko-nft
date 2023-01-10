@@ -2,7 +2,6 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 import './Rankings.css'
-import Avatar1 from '../../Img/Avatars/Avatar Placeholder.png'
 import ArtistRankingComponent from '../../Components/ArtistRankingComponent/ArtistRankingComponent'
 
 const Rankings = () => {
