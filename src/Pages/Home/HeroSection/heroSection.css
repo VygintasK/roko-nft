@@ -6,6 +6,7 @@
     column-gap: 30px;
 }
 .HeroHeadline h1{
+    max-width: 510px;
     margin-top: 0px;
     margin-bottom: 20px;
     line-height:73.7px;

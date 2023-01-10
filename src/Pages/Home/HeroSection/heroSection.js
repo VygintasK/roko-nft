@@ -1,17 +1,8 @@
 import React from 'react'
 import { ReactComponent as RocketLaunch } from "./rocketLaunch.svg";
-import imagePlaceholder from "./ImagePlaceholder.png"
-import avatarPlaceholder from "./AvatarPlaceholder.png"
 import Button from '../../../Components/Button/Button'
 import './heroSection.css'
 import nftDataArr from '../../../Object/Object'
-
-
-
-let imageAddress = nftDataArr[0].avatar
-console.log(imageAddress)
-// console.log(imagePlaceholder)
-// console.log(Avatars)
 
 let randomNumber = Math.floor((Math.random() * nftDataArr.length) + 1)
 
@@ -30,7 +21,6 @@ const heroSection = () => {
     <div className='heroSection'>
         <div className='HeroHeadline'>
             <div className='HeroText'>
-                <img src={imageAddress} alt=''/>
                 <h1>Discover <br/> digital art & Collect NFTs</h1>
                 <p>NFT marketplace UI created with Anima for <br/> Figma. Collect, buy and sell art from more <br/>than 20k NFT artists.</p>
                 <Button href='/#'><RocketLaunch className='button-svg'/>Get Started</Button>
