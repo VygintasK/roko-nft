@@ -15,5 +15,45 @@
 }
 
 .CreateAccount p{
+    max-width: 460px;
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.create-account-form{
+    max-width: 286px;
+}
+.create-account-form input{
+    background-color: #FFFFFF;
+    padding:12px 20px;
+    margin-bottom: 7.5px ;
+    margin-top: 7.5px ;
+    border-radius: 20px;
+    width: 100%;
+    
 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
+}
+.create-account-form .create-account-button{
+    background-color:#A259FF;
+    padding: 12px 20px;
+    margin-top: 32px;
+    width: 330px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.create-account-form .create-account-button:hover{
+    background-color:#8222ff;
 }
