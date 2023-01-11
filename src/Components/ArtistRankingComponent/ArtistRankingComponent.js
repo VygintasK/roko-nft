@@ -1,14 +1,13 @@
 import React from 'react'
-import nftDataArr from '../../Object/Object'
 
-
-const ArtistRankingComponent = () => {
+const ArtistRankingComponent = (props) => {
+  // {console.log(props)}
   return (
     <div className='artist-wrap'>
-        <p className='number'>1</p>
+        <p className='number'>{props.id}</p>
         <div className='character-wrap'>
-            <img src={nftDataArr[0].avatar} alt='Animated face, avatar'></img>
-            <h5>Jaydon Ekstrom Bothman</h5>
+            <img src={props.avatar} alt='Animated face, avatar'></img>
+            <h5>{props.author}</h5>
         </div>
         <p>+1.41%</p>
         <p>602</p>

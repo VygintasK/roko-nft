@@ -2,6 +2,7 @@ import React from 'react'
 import { ReactComponent as MagnifyingGlass } from "./MagnifyingGlass.svg"
 import './Marketplace.css'
 import NFTcard from '../../Components/NFTcard/NFTcard'
+import nftDataArr from '../../Object/Object'
 
 const Marketplace = () => {
   return (
@@ -18,7 +19,7 @@ const Marketplace = () => {
         <div className='marketplace-selection'>
           <div className='nfts'>
             <h5>NFTs</h5>
-            <p>302</p>
+            <p>{nftDataArr.length}</p>
           </div>
           <div className='collections inactive'>
             <h5>Collections</h5>
@@ -27,12 +28,11 @@ const Marketplace = () => {
         </div>
       </div>
       <div className='NTF-cards-selection'>
-      <span>---------FETCH FROM API OBJ HERE --------- </span>
       <div className='NFT-card-wrap'>
-        <NFTcard/>
-        <NFTcard/>
-        <NFTcard/>
-        <NFTcard/>
+        {nftDataArr.map(element => (
+          <NFTcard key={element.id} artistObject={element}/>
+        ))}
+        
       </div>
     </div>
   </div>

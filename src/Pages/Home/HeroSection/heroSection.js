@@ -12,9 +12,8 @@ nftDataArr.forEach(element => {
         randomAuthorOBJ=element
     }
 });
+// console.log(nftDataArr)
 let {NFT,nftName,author,avatar}=randomAuthorOBJ
-console.log(randomAuthorOBJ.NFT)
-
 
 const heroSection = () => {
   return (

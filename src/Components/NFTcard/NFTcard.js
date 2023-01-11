@@ -1,18 +1,17 @@
 import React from 'react'
-import nft from '../../Img/NFTs/Image Placeholder.png'
 import'./NFTcard.css'
-import nftDataArr from '../../Object/Object'
 
+const NFTcard = (props) => {
+    let {NFT,author,avatar,nftName}=props.artistObject
 
-const NFTcard = () => {
   return (
     <div className='NFT-card'>
-        <img src={nft} alt='nft'/>
+        <img className='nft-pic' src={NFT} alt='nft'/>
         <div className='nft-info-wrap'>
-            <h5>Magic Mushroom 0325</h5>
+            <h5>{nftName}</h5>
             <div className='card-artist'>
-                <img src={nftDataArr[0].avatar}></img>
-                <p>Shroomie</p>
+                <img alt='avatar' src={avatar}/>
+                <p>{author}</p>
             </div>
             <div className='price-wrap'>
                 <div className='price'>

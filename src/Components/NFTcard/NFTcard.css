@@ -1,6 +1,6 @@
 .NFT-card{
     background-color:#2B2B2B;
-    width: 330px;
+    width: 100%;
     border-radius: 20px;
     color: #FFFFFF;
 }
@@ -14,6 +14,12 @@
     text-transform: capitalize;
     margin: 0px;
     margin-bottom: 5px;
+}
+.nft-pic{
+    width: 100%;
+    object-fit:cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .card-artist{
     display: flex;

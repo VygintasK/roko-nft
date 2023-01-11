@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 import './Rankings.css'
 import ArtistRankingComponent from '../../Components/ArtistRankingComponent/ArtistRankingComponent'
+import nftDataArr from '../../Object/Object'
 
 const Rankings = () => {
   return (
@@ -26,16 +27,14 @@ const Rankings = () => {
           <Link>Volume</Link>
         </div>
         <div className='filtered-artists-wrap'>
-          <ArtistRankingComponent/>
-          <ArtistRankingComponent/>
-          <ArtistRankingComponent/>
-          <ArtistRankingComponent/>
-          <ArtistRankingComponent/>
-          <ArtistRankingComponent/>
+          {nftDataArr.map((element, index)=> (
+            <ArtistRankingComponent key={element.id} id={index+1} author={element.author} avatar={element.avatar}/>
+          ))}
         </div>
       </div> 
     </div>
   )
 }
+
 
 export default Rankings

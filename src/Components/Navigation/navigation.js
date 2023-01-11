@@ -16,7 +16,9 @@ const Navigation = () => {
           <li><Link to='/Rankings'>Rankings</Link></li>
           <li><Link to='/#'>Connect a wallet</Link></li>
         </ul>
-        <Button href='/#'><UserSvg className='button-svg'/>Sign Up</Button>
+        <Button href='/CreateAccount'>
+          <UserSvg className='button-svg'/>Sign Up
+        </Button>
 
       </div>
     </nav>

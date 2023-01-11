@@ -67,8 +67,8 @@
 .ArtistCard .random-NFT{
     width: 100%;
     max-width: 510px;
-    height: 50%;
-    min-height: 401px ;
+    /* height: 50%;
+    min-height: 401px ; */
     object-position: top;
     object-fit:cover;
     border-top-left-radius: 20px;

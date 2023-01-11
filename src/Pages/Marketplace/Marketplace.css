@@ -98,3 +98,19 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
 }
+@media (max-width: 1023px) {
+    .NFT-card-wrap{
+        grid-template-columns: 1fr 1fr;
+    }
+    .NTF-cards-selection,.marketplace-wrap{
+        padding: 60px 77px 80px;
+    }
+}
+@media (max-width: 767px) {
+    .NFT-card-wrap{
+        grid-template-columns: 1fr;
+    }
+    .NTF-cards-selection, .marketplace-wrap{
+        padding: 60px 30px 80px;
+    }
+}
