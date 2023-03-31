@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/roko-nft/static/css/main.da21fc1b.css",
+    "main.js": "/roko-nft/static/js/main.745f205e.js",
+    "static/js/787.7236f534.chunk.js": "/roko-nft/static/js/787.7236f534.chunk.js",
+    "static/media/Gravity.png": "/roko-nft/static/media/Gravity.50be8f118c400447593f.png",
+    "static/media/TheOrbitians.png": "/roko-nft/static/media/TheOrbitians.d35e3147b0a294ab6255.png",
+    "static/media/StellarGirl.png": "/roko-nft/static/media/StellarGirl.fb85e0b03eecf6f91eaa.png",
+    "static/media/StuffThatMatter.png": "/roko-nft/static/media/StuffThatMatter.5725bfe4a46d7358abea.png",
+    "static/media/SpaceAnimal.png": "/roko-nft/static/media/SpaceAnimal.0614338ff0f25a3c0da2.png",
+    "static/media/SpaceWalking.png": "/roko-nft/static/media/SpaceWalking.658c70be2bbb433d5073.png",
+    "static/media/CreateAccount.png": "/roko-nft/static/media/CreateAccount.a9b793281b03e593ad8c.png",
+    "static/media/Photo.png": "/roko-nft/static/media/Photo.3c17f1106e9dcf6afa9c.png",
+    "static/media/DiscordLogo.svg": "/roko-nft/static/media/DiscordLogo.837218d19b4ba43e651ab0feb9882f84.svg",
+    "static/media/YoutubeLogo.svg": "/roko-nft/static/media/YoutubeLogo.7c4b0a32fd01983a3ec77c31f80d779f.svg",
+    "static/media/rocketLaunch.svg": "/roko-nft/static/media/rocketLaunch.aae84bdedaae8b874ddc6998fdc540bc.svg",
+    "static/media/TwitterLogo.svg": "/roko-nft/static/media/TwitterLogo.008460d61ee98f5cea17435e23435fcb.svg",
+    "static/media/user.svg": "/roko-nft/static/media/user.c8f5ca6d900786794b63dbba33403df8.svg",
+    "static/media/InstagramLogo.svg": "/roko-nft/static/media/InstagramLogo.0c4cf944fd017b3bf17e345be53ee318.svg",
+    "static/media/MagnifyingGlass.svg": "/roko-nft/static/media/MagnifyingGlass.8f4b82ac85e61bb1ffd851518aeab9dd.svg",
+    "index.html": "/roko-nft/index.html",
+    "main.da21fc1b.css.map": "/roko-nft/static/css/main.da21fc1b.css.map",
+    "main.745f205e.js.map": "/roko-nft/static/js/main.745f205e.js.map",
+    "787.7236f534.chunk.js.map": "/roko-nft/static/js/787.7236f534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da21fc1b.css",
+    "static/js/main.745f205e.js"
+  ]
+}
