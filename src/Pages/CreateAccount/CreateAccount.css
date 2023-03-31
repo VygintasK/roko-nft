@@ -57,3 +57,8 @@
 .create-account-form .create-account-button:hover{
     background-color:#8222ff;
 }
+.InfoWrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 0px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import { ReactComponent as RocketLaunch } from "./rocketLaunch.svg";
+import { ReactComponent as RocketLaunch } from "./rocketLaunch.svg"
 import Button from '../../../Components/Button/Button'
 import './heroSection.css'
 import nftDataArr from '../../../Object/Object'
