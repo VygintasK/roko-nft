@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/roko-nft/static/css/main.da21fc1b.css",
-    "main.js": "/roko-nft/static/js/main.745f205e.js",
+    "main.js": "/roko-nft/static/js/main.2ad76143.js",
     "static/js/787.7236f534.chunk.js": "/roko-nft/static/js/787.7236f534.chunk.js",
     "static/media/Gravity.png": "/roko-nft/static/media/Gravity.50be8f118c400447593f.png",
     "static/media/TheOrbitians.png": "/roko-nft/static/media/TheOrbitians.d35e3147b0a294ab6255.png",
@@ -20,11 +20,11 @@
     "static/media/MagnifyingGlass.svg": "/roko-nft/static/media/MagnifyingGlass.8f4b82ac85e61bb1ffd851518aeab9dd.svg",
     "index.html": "/roko-nft/index.html",
     "main.da21fc1b.css.map": "/roko-nft/static/css/main.da21fc1b.css.map",
-    "main.745f205e.js.map": "/roko-nft/static/js/main.745f205e.js.map",
+    "main.2ad76143.js.map": "/roko-nft/static/js/main.2ad76143.js.map",
     "787.7236f534.chunk.js.map": "/roko-nft/static/js/787.7236f534.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.da21fc1b.css",
-    "static/js/main.745f205e.js"
+    "static/js/main.2ad76143.js"
   ]
 }
