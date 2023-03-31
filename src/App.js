@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navigation/>
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
+        <Route path='/roko-nft/' element={<Home/>}></Route>
         <Route path='/Marketplace' element={<Marketplace/>}></Route>
         <Route path='/Rankings' element={<Rankings/>}></Route>
         <Route path='/CreateAccount' element={<CreateAccount/>}></Route>

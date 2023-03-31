@@ -9,7 +9,7 @@ import './navigation.css'
 const Navigation = () => {
   return (
     <nav className='navigation'>
-      <Link to='/'><img className='navLogo' src={logo} alt="Horse"></img></Link>
+      <Link to='/roko-nft/'><img className='navLogo' src={logo} alt="Horse"></img></Link>
       <div className='nav-button-wrap'>
         <ul className='navUl'>
           <li><Link to='/Marketplace'>Marketplace</Link></li>
