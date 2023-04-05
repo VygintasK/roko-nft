@@ -12,9 +12,9 @@ const Navigation = () => {
       <Link to='/roko-nft/'><img className='navLogo' src={logo} alt="Horse"></img></Link>
       <div className='nav-button-wrap'>
         <ul className='navUl'>
-          <li><Link to='/Marketplace'>Marketplace</Link></li>
-          <li><Link to='/Rankings'>Rankings</Link></li>
-          <li><Link to='/#'>Connect a wallet</Link></li>
+          <li><Link to='/roko-nft/Marketplace'>Marketplace</Link></li>
+          <li><Link to='/roko-nft/Rankings'>Rankings</Link></li>
+          <li><Link to='/roko-nft/#'>Connect a wallet</Link></li>
         </ul>
         <Button href='/CreateAccount'>
           <UserSvg className='button-svg'/>Sign Up

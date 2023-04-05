@@ -15,9 +15,9 @@ function App() {
       <Navigation/>
       <Routes>
         <Route path='/roko-nft/' element={<Home/>}></Route>
-        <Route path='/Marketplace' element={<Marketplace/>}></Route>
-        <Route path='/Rankings' element={<Rankings/>}></Route>
-        <Route path='/CreateAccount' element={<CreateAccount/>}></Route>
+        <Route path='/roko-nft/Marketplace' element={<Marketplace/>}></Route>
+        <Route path='/roko-nft/Rankings' element={<Rankings/>}></Route>
+        <Route path='/roko-nft/CreateAccount' element={<CreateAccount/>}></Route>
       </Routes>
       <Footer/>
     </div>
