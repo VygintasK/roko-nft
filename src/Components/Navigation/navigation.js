@@ -14,9 +14,9 @@ const Navigation = () => {
         <ul className='navUl'>
           <li><Link to='/roko-nft/Marketplace'>Marketplace</Link></li>
           <li><Link to='/roko-nft/Rankings'>Rankings</Link></li>
-          <li><Link to='/roko-nft/#'>Connect a wallet</Link></li>
+          <li><Link to='/roko-nft/ConnectWallet/'>Connect a wallet</Link></li>
         </ul>
-        <Button href='/CreateAccount'>
+        <Button href='/roko-nft/CreateAccount'>
           <UserSvg className='button-svg'/>Sign Up
         </Button>
 

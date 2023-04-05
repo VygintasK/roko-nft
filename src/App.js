@@ -5,6 +5,7 @@ import Home from "./Pages/Home/Home"
 import Marketplace from "./Pages/Marketplace/Marketplace"
 import Rankings from "./Pages/Rankings/Rankings"
 import CreateAccount from './Pages/CreateAccount/CreateAccount'
+import ConnectWallet from './Pages/ConnectWallet/ConnectWallet'
 
 // import logo from './logo.svg';
 import './App.css';
@@ -18,6 +19,7 @@ function App() {
         <Route path='/roko-nft/Marketplace' element={<Marketplace/>}></Route>
         <Route path='/roko-nft/Rankings' element={<Rankings/>}></Route>
         <Route path='/roko-nft/CreateAccount' element={<CreateAccount/>}></Route>
+        <Route path='/roko-nft/ConnectWallet/' element={<ConnectWallet/>}></Route>
       </Routes>
       <Footer/>
     </div>

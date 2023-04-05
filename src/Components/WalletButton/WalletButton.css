@@ -1,0 +1,14 @@
+.wallet-Button-link{
+    display: flex;
+    width: 274px;
+    height: 66px;
+    padding: 0px 0px 0px 40px;
+    margin: 10px 60px;
+    border-radius: 20px;
+    background-color:#3B3B3B ;
+    border: solid #A259FF;
+    align-items: center;
+}
+.wallet-Button-link img{
+    margin-right:20px;
+}
